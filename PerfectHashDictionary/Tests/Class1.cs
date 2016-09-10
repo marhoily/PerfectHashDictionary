@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Linq;
 using FluentAssertions;
 using PerfectHashDictionary;
 using Xunit;
@@ -10,10 +11,14 @@ namespace Tests
         [Fact]
         public void FactMethodName()
         {
-            new Dictionary<int, string>
-            {
-                {1, "1"}
-            }.Optimize()[1].Should().Be("1");
+            var source = Enumerable.Range(0, 30)
+                .Select(_ => new object())
+                .ToArray();
+            var optimized = source
+                .ToDictionary(x => x, x => Array.IndexOf(source, x))
+                .Optimize();
+            for (var i = 0; i < source.Length; i++)
+                optimized[source[i]].Should().Be(i);
         }
     }
 }
