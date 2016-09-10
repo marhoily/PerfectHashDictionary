@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfectHashDictionary", "PerfectHashDictionary\PerfectHashDictionary.csproj", "{A613496E-284B-4DFF-8867-7C2E0360AB4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{69DC253D-AE92-41CF-BF99-F3CB5F26E49D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark", "Benchmark\Benchmark.csproj", "{2CC9139E-4E74-4555-A494-874B17F8AE01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A613496E-284B-4DFF-8867-7C2E0360AB4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A613496E-284B-4DFF-8867-7C2E0360AB4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A613496E-284B-4DFF-8867-7C2E0360AB4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A613496E-284B-4DFF-8867-7C2E0360AB4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69DC253D-AE92-41CF-BF99-F3CB5F26E49D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69DC253D-AE92-41CF-BF99-F3CB5F26E49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69DC253D-AE92-41CF-BF99-F3CB5F26E49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69DC253D-AE92-41CF-BF99-F3CB5F26E49D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CC9139E-4E74-4555-A494-874B17F8AE01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC9139E-4E74-4555-A494-874B17F8AE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC9139E-4E74-4555-A494-874B17F8AE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CC9139E-4E74-4555-A494-874B17F8AE01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
